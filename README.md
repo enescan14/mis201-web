@@ -6,4 +6,4 @@
 - new details addedd!!
 - NEW COMMIT
 
-![Picture](https://imgur.com/a/xwn6T7o)
+![Picture](https://i.imgur.com/9J5OthX.jpeg)
