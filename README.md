@@ -8,6 +8,7 @@
 3. Commit and write a meaningful message: *git commit -m "Updated README.md"*
 4. Push to the github: *git push*
 
+### Some Entries
 - My first Git repsitory
 - new details addedd!!
 - NEW COMMIT
