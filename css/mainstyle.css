@@ -1,0 +1,68 @@
+
+html {
+    font-family: 'JetBrains Mono', monospace;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+img {
+    display: inline-block;
+}
+
+header nav a {
+    display: block;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #ffffff;
+    float: right;
+    font-size: 20px;
+    font-family: JetBrains Mono;
+}
+
+ul {  
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.form {
+    margin: 0 auto;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    color: #040404;
+    background-color: #ffffff;
+}
+
+.form input, .form textarea {
+    width: 90%;     
+    padding: 10px;   
+    margin-bottom: 15px; 
+    border: 3px solid #10ac84;;
+    border-radius: 10px; 
+}
+
+.class1 {
+    color: #ffffff;
+    background-image: url(../images/stripe.jpg);    
+    text-align: center;
+}
+
+#schedule-table th {
+    border: 3px solid #10ac84;
+    padding: 10px;
+}
+
+#schedule-table td {
+    padding: 10px;
+}
+
+#schedule-table {
+    border: 6px solid white;
+    padding: 15px;
+}
