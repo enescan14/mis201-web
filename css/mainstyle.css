@@ -66,3 +66,21 @@ ul {
     border: 6px solid white;
     padding: 15px;
 }
+
+.quotes-container {
+    display: flex;
+    flex-wrap: wrap;        /* Ekrana sığmayan resimler alt satıra otomatik geçer */
+    gap: 20px;             /* Resimlerin arasına eşit boşluk bırakır */
+    align-items: flex-start; /* Resimlerin üst kısımlarını aynı hizaya getirir */
+}
+
+.img-wrap {
+    border: 1px solid white;
+    width: fit-content;
+}
+
+.img-wrap img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
