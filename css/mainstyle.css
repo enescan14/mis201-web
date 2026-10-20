@@ -84,3 +84,19 @@ ul {
     max-width: 100%;
     height: auto;
 }
+
+h1 {
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    gap: 30px;
+}
+
+.profile-img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    border-color: #10ac84;
+}
