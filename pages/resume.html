@@ -3,53 +3,80 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
     <link rel="stylesheet" href="../css/mainstyle.css">
 </head>
 
 <body>
     <header>
-    <img src="../images/enes-logo.gif" alt="Logo" width="300">
+    <a href="../index.html"><img src="../images/enes-logo.gif" alt="Logo" width="300"></a>
     <nav>     
         <ul>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="../pages\schedule.html">Weekly Schedule</a></li>
+            <li><a href="../pages/schedule.html">Weekly Schedule</a></li>
             <li><a href="../pages/quotes.html">Favorite Quotes</a></li>
             <li><a href="../pages/apps.html">Favorite Apps&Websites</a></li>
             <li><a href="../pages/album.html">Photo Album</a></li>
             <li><a href="../pages/resume.html">Resume (CV)</a></li>
             <li><a href="../pages/about.html">About</a></li>            
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
         </ul>
     </nav>
     </header>
 
 <hr>
     <main>
-        <form class="form">
-            <h2 text-align="center">Send a message</h2>
-            <label for="name">Full Name</label>
-            <br>
-            <input type="text" id="name" name="name" cols="30" placeholder="Enter your name" minlength="5" maxlength="50" required>
-            <br>    
-            <label for="email">E-mail</label>
-            <br>
-            <input background-color="red" type="email" id="email" name="email" cols="30" placeholder="Enter your e-mail address" required>
-            <br>
-            <label for="message">Message</label>
-            <br>
-            <textarea id="message" name="message" placeholder="Enter your message" rows="5" cols="30" required></textarea>
-            <br>
-            <button type="submit">Send Message</button>
-            <br>
-            <br>
-            <section>
-                <a href="mailto:enescan14083@gmail.com"><img src="../images/mail.png" alt="Mail Logo" width="50"></a>
-                <a href="https://github.com/enescan14" target="_blank"> <img src="../images/github.svg" alt="GitHub" width="50"></a>
-                <a href="https://linkedin.com/in/enes-can-mis" target="_blank"> <img src="../images/linkedin.svg" alt="LinkedIn" width="50"></a>
-            </section>
-        </form>
-        <br>   
+        <h1>Resume (CV)</h1>
+
+        <div class="about-container">
+            <img src="../images/me.jpeg" alt="Profile" class="profile-img">
+            <div>
+                <h2>Enes Can</h2>
+                <p>Management Information Systems student at Gebze Technical University.</p>
+                <p>E-mail: <a href="mailto:enescan14083@gmail.com">enescan14083@gmail.com</a></p>
+                <p>GitHub: <a href="https://github.com/enescan14" target="_blank">github.com/enescan14</a></p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/enes-can-mis" target="_blank">linkedin.com/in/enes-can-mis</a></p>
+            </div>
+        </div>
+
+        <h2>Education</h2>
+        <p>Gebze Technical University - Management Information Systems</p>
+
+        <h2>Skills</h2>
+        <section class="card-container">
+            <article class="card">
+                <h3>Programming</h3>
+                <p>Python, SQL, HTML</p>
+            </article>
+            <article class="card">
+                <h3>Data Analysis</h3>
+                <p>pandas, numpy, matplotlib, seaborn</p>
+            </article>
+            <article class="card">
+                <h3>Tools</h3>
+                <p>GitHub</p>
+            </article>
+        </section>
+
+        <h2>Certificates</h2>
+        <section class="card-container">
+            <article class="card">
+                <h3>Data Analytics School</h3>
+                <p>TVT x Badi Next Academy</p>
+                <p>Python, SQL, Power BI</p>
+                <p>15 September - 1 October 2026</p>
+            </article>
+            <article class="card">
+                <h3>Introduction to Cybersecurity</h3>
+                <p>Cisco</p>
+            </article>
+            <article class="card">
+                <h3>AI Literacy</h3>
+                <p>IBM SkillsBuild</p>
+                <p>3 October 2026</p>
+            </article>
+        </section>
     </main>
 </body>
 
