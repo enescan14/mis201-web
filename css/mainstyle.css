@@ -61,7 +61,7 @@ ul {
     width: 90%;     
     padding: 10px;   
     margin-bottom: 15px; 
-    border: 3px solid #10ac84;;
+    border: 3px solid #10ac84;
     border-radius: 10px; 
 }
 
@@ -93,7 +93,7 @@ ul {
 }
 
 .img-wrap {
-    border: 1px solid 10ac84;
+    border: 1px solid #10ac84;
     width: fit-content;
 }
 

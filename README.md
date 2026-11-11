@@ -1,10 +1,11 @@
-# MIS201 Web development
+# MIS201 - Internet Technologies and Programming
 
-START HERE > https://enescan14.github.io/mis201-web/
+**Gebze Technical University**    
+**Live Site:** [https://enescan14.github.io/mis201-web/](https://enescan14.github.io/mis201-web/)
 
-## Git & Github Introduction
 
 ### How to add, commit, push?
+
 1. Edit / add your files, do the changes you want.
 2. You can also see the modified files: **git status** 
 3. Select the files, dot means all: **git add .** or **git add README.md**
@@ -15,8 +16,3 @@ START HERE > https://enescan14.github.io/mis201-web/
 - My first Git repsitory
 - new details addedd!!
 - NEW COMMIT
-
-## HTML Introduction
-
-- html, head, body
-- html elements
